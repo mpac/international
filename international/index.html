@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!-- manytopics/international by Michael Pacchioli -->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>manytopics/international: Comparative Searching</title>
+    
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!--[if lte IE 8]>
+       <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.ie.css" />
+    <![endif]-->
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/countries.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container" style="text-align:center"> 
+	<br/>
+	<h3>manytopics/international: Comparative Searching</h3>
+	<br/>
+
+	<p>Enter a phrase to explore it across countries and cultures.</p>
+	<p>Then click the icons to initiate searches.</p>
+	<p>Example: <b>food in NYC</b></p>
+
+	<br/>
+	
+	<form id="form1">
+	    <input id="search" type="text" placeholder="Type something..." style="height: 25px;"><br/>
+	    <button type="submit" class="btn btn-primary btn-large">Submit &raquo;</button>  
+	</form>  	
+
+	<br/>
+
+    <div id="map"></div>
+</div>
+
+</body>
+
+<script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+
+</html>
+
